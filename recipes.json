@@ -1,0 +1,32 @@
+{
+    "carbonara": {
+        "egg": 2,
+        "parmesan cheese": 1,
+        "spaghetti": 1,
+        "bacon": 4
+    },
+    "bacon and egg muffins": {
+        "egg": 1,
+        "english muffins": 1,
+        "bacon": 2,
+        "butter": 1
+    },
+    "beef keema": {
+        "rice": 1,
+        "beef mince": 1,
+        "curry powder": 1,
+        "carrot": 2,
+        "ginger": 1,
+        "garlic clove": 3,
+        "coriander": 1,
+        "chicken stock": 1
+    },
+    "carrot soup": {
+        "carrot": 5,
+        "onion": 2,
+        "coriander": 1,
+        "garlic clove": 1,
+        "pepper": 1,
+        "vegetable stock": 2
+    }
+}

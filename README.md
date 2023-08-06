@@ -8,7 +8,7 @@
 ## next steps
 
 - [x] factor things out into functions
-- [ ] persist recipes outside of code (json)
+- [x] persist recipes outside of code (json)
 - [ ] serving sizes of recipes
 - [ ] measures for ingredients
 - [ ] write terminal script to add recipes
