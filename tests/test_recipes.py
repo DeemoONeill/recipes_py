@@ -1,6 +1,8 @@
-import recipes
-import pytest
 import json
+
+import pytest
+
+import recipes
 
 
 @pytest.fixture

@@ -1,18 +1,21 @@
+"""module for generating shopping lists from ingredients"""
 # we want recipes, minimum: name, ingredients
-import pyinputplus as pyin
 import json
+
+import pyinputplus as pyin
 
 
 # we want to be able to select multiple recipes
 def recipe_selection(recipes: dict):
     list_of_wanted_recipes = []
     # input
-    valid_choices = ["done"]
-    valid_choices.extend(recipes.keys())
+    valid_choices = list(recipes.keys())
     while True:
-        selection = pyin.inputChoice(valid_choices, strip=True, caseSensitive=False)
+        selection = pyin.inputChoice(
+            valid_choices, strip=True, caseSensitive=False, blank=True
+        )
 
-        if selection == "done":
+        if not selection:
             break
 
         portions = pyin.inputNum(
