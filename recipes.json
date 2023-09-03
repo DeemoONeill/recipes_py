@@ -18,6 +18,7 @@
         "portions": 1
     },
     "beef keema": {
+
         "ingredients": {
             "rice": 1,
             "beef mince": 1,
@@ -28,7 +29,7 @@
             "coriander": 1,
             "chicken stock": 1
         },
-        "Portions": 2
+        "portions": 2
     },
     "carrot soup": {
         "ingredients": {
@@ -39,6 +40,6 @@
             "pepper": 1,
             "vegetable stock": 2
         },
-        "Portions": 2
+        "portions": 2
     }
 }
