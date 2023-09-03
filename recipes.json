@@ -1,9 +1,12 @@
 {
     "carbonara": {
-        "egg": 2,
-        "parmesan cheese": 1,
-        "spaghetti": 1,
-        "bacon": 4
+        "ingredients": {
+            "egg": 2,
+            "parmesan cheese": 1,
+            "spaghetti": 1,
+            "bacon": 4
+        },
+        "portions": 2
     },
     "bacon and egg muffins": {
         "egg": 1,
