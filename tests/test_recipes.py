@@ -2,18 +2,19 @@ import json
 
 import pytest
 
-import recipes
+import recipes as rc
 
 
 @pytest.fixture
 def recipe_dict():
     with open("recipes.json") as file_handle:
-        return json.loads(file_handle.read())
+        recipes = json.loads(file_handle.read())
+    return {key: rc.Recipe(name=key, **value) for key, value in recipes.items()}
 
 
 def test_shopping_list(recipe_dict):
     selection = ["carbonara"]
-    shopping_list = recipes.make_shopping_list(selection, recipes=recipe_dict)
+    shopping_list = rc.make_shopping_list(selection, recipes=recipe_dict)
 
     assert shopping_list == {
         "egg": 2,
@@ -25,7 +26,7 @@ def test_shopping_list(recipe_dict):
 
 def test_shopping_list2(recipe_dict):
     selection = ["carbonara"] * 2
-    shopping_list = recipes.make_shopping_list(selection, recipes=recipe_dict)
+    shopping_list = rc.make_shopping_list(selection, recipes=recipe_dict)
 
     assert shopping_list == {
         "egg": 4,
