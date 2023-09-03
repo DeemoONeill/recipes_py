@@ -26,17 +26,19 @@
             "ginger": 1,
             "garlic clove": 3,
             "coriander": 1,
-            "
+            "chicken stock": 1
         },
-        "carrot soup": {
-            "ingredients": {
-                "carrot": 5,
-                "onion": 2,
-                "coriander": 1,
-                "garlic clove": 1,
-                "pepper": 1,
-                "vegetable stock": 2
-            },
-            "Portions": 2
-        }
+        "portions": 2
+    },
+    "carrot soup": {
+        "ingredients": {
+            "carrot": 5,
+            "onion": 2,
+            "coriander": 1,
+            "garlic clove": 1,
+            "pepper": 1,
+            "vegetable stock": 2
+        },
+        "portions": 2
     }
+}
