@@ -5,6 +5,8 @@ import json
 import pyinputplus as pyin
 
 
+### TODO: try to get recipe selection to be a dict of recipe to portion size.
+###  i.e. carbonara 1 portion would be half of all the ingredients.
 class Recipe:
     def __init__(self, name, ingredients: dict[str, int], portions):
         self.name = name
@@ -22,6 +24,12 @@ class Recipe:
 
         self.portions = portions
 
+        def ingredient_quantity(portions_to_cook):
+            if portions_to_cook == self.portions:
+                return self.portions
+            else:
+                return self.ingredients * portions_to_cook
+
 
 # we want to be able to select multiple recipes
 def recipe_selection(recipes: dict[str, Recipe]):
@@ -38,8 +46,8 @@ def recipe_selection(recipes: dict[str, Recipe]):
 
         portions = pyin.inputNum(
             "how many portions do you want to cook?: ", default=1, strip=True, min=1
-        )
-
+        ).ingredient_quantity()
+        # TODO: this needs to be removed, and the .portions method from the class should be used
         list_of_wanted_recipes.extend([selection] * portions)
     return list_of_wanted_recipes
 
