@@ -7,11 +7,11 @@
             ],
             "parmesan cheese": [
                 200,
-                "Gramms"
+                "g"
             ],
             "spaghetti": [
-                1,
-                "Gramms"
+                200,
+                "g"
             ],
             "bacon": [
                 4,
@@ -45,11 +45,11 @@
         "ingredients": {
             "rice": [
                 150,
-                "Gramms"
+                "g"
             ],
             "beef mince": [
                 300,
-                "Gramms"
+                "g"
             ],
             "curry powder": [
                 1,
@@ -61,15 +61,15 @@
             ],
             "ginger": [
                 15,
-                "Gramms"
+                "g"
             ],
             "garlic clove": [
                 3,
-                "Gramms"
+                "g"
             ],
             "coriander": [
                 10,
-                "Gramms"
+                "g"
             ],
             "chicken stock": [
                 1,
@@ -90,7 +90,7 @@
             ],
             "coriander": [
                 10,
-                "Gramms"
+                "g"
             ],
             "garlic clove": [
                 1,

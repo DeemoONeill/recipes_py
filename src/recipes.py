@@ -10,23 +10,21 @@ import pyinputplus as pyin
 class Recipe:
     """The representation of a recipe"""
 
-    def __init__(self, name, ingredients: dict[str, int], portions):
+    def __init__(self, name, ingredients: dict[str, list[int, str]], portions):
         self.name = name
 
         # we want to normalise this to get the ingredients for a single portion
         self._normalised_ingredients = {
-            ingredient: quantity / portions
+            ingredient: quantity[0] / portions
             for ingredient, quantity in ingredients.items()
         }
 
-        # TODO: add ingredients class with rules for how to divide them.
-        # e.g. eggs / any number should give a minimum of 1
-        # pasta can be divisible by any number
         self.ingredients = ingredients
 
         self.portions = portions
 
     def ingredient_quantity(self, portions_to_cook: int | float):
+        """This will give you back the amount of ingredients based on the number of portions you wish to cook"""
         if portions_to_cook == self.portions:
             return self.ingredients
 
@@ -110,6 +108,7 @@ def make_shopping_list(
                 # if the ingredient has never shown up before, its the first time
                 # so we set it to 1
                 shopping_list[ingredient] = quantity
+    # TODO do a .join(selection list) to join the number and the measure together
     return shopping_list
 
 
