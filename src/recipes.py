@@ -4,6 +4,72 @@ import json
 
 import pyinputplus as pyin
 
+Units = str
+"""Units for ingredients"""
+Volume = int | float
+"""Quantity of ingredients"""
+
+
+class Ingredient:
+    def __init__(
+        self,
+        name: str,
+        volume: Volume,
+        unit_of_measure: Units,
+        measures_dict: dict[Units, Volume] | None = None,
+    ):
+        if measures_dict is None:
+            measures_dict = {}
+        self.measures_dict = measures_dict
+        self.name = name
+        self.volume = volume
+        self.unit_of_measure = unit_of_measure
+
+        if unit_of_measure in self.measures_dict:
+            self.measures_dict[unit_of_measure] += volume
+        else:
+            self.measures_dict[unit_of_measure] = volume
+
+    def __str__(self):
+        return f"{self.name}: {self.measures_dict}"
+
+    def __repr__(self):
+        return str(self)
+
+    def __add__(self: "Ingredient", other: "Ingredient"):
+        if not isinstance(other, Ingredient):
+            raise NotImplementedError(f"{other} is not an Ingredient")
+
+        if self.name != other.name:
+            raise ValueError("not the same type of ingredient")
+
+        return self.__class__(
+            self.name, other.volume, other.unit_of_measure, self.measures_dict.copy()
+        )
+
+    def __truediv__(self, other: int | float):
+        if not isinstance(other, (int, float)):
+            raise NotImplementedError(f"{other} is not a number")
+
+        new_dict = {
+            unit: quantity / other for unit, quantity in self.measures_dict.items()
+        }
+        return self.__class__(
+            self.name,
+            0,
+            self.unit_of_measure,
+            new_dict,
+        )
+
+    def __eq__(self, other):
+        if not isinstance(other, Ingredient):
+            raise NotImplementedError(f"{other} is not an Ingredient")
+
+        if self.name != other.name:
+            return False
+
+        return self.measures_dict == other.measures_dict
+
 
 ### TODO: try to get recipe selection to be a dict of recipe to portion size.
 ###  i.e. carbonara 1 portion would be half of all the ingredients.
@@ -15,8 +81,8 @@ class Recipe:
 
         # we want to normalise this to get the ingredients for a single portion
         self._normalised_ingredients = {
-            ingredient: quantity[0] / portions
-            for ingredient, quantity in ingredients.items()
+            ingredient: [quantity / portions, unit]
+            for ingredient, (quantity, unit) in ingredients.items()
         }
 
         self.ingredients = ingredients
@@ -29,8 +95,8 @@ class Recipe:
             return self.ingredients
 
         return {
-            ingredient: quantity * portions_to_cook
-            for ingredient, quantity in self._normalised_ingredients.items()
+            ingredient: [quantity * portions_to_cook, unit]
+            for ingredient, (quantity, unit) in self._normalised_ingredients.items()
         }
 
     def __str__(self):
