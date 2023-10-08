@@ -11,30 +11,31 @@ Volume = int | float
 
 
 class Ingredient:
+    """Takes an ingredient and creates an instance of that ingredient with weights and
+    units of measure"""
+
     def __init__(
         self,
         name: str,
-        volume: Volume,
-        unit_of_measure: Units,
+        volume: Volume = None,
+        unit_of_measure: Units = None,
         measures_dict: dict[Units, Volume] | None = None,
     ):
         if measures_dict is None:
             measures_dict = {}
         self.measures_dict = measures_dict
         self.name = name
-        self.volume = volume
-        self.unit_of_measure = unit_of_measure
-
-        if unit_of_measure in self.measures_dict:
-            self.measures_dict[unit_of_measure] += volume
-        else:
-            self.measures_dict[unit_of_measure] = volume
+        if unit_of_measure and volume:
+            self.measures_dict[unit_of_measure.lower()] = volume
 
     def __str__(self):
-        return f"{self.name}: {self.measures_dict}"
+        quantities = ", ".join(
+            [f"{quantity} {unit}" for unit, quantity in self.measures_dict.items()]
+        )
+        return f"{self.name}: {quantities}"
 
     def __repr__(self):
-        return str(self)
+        return f"Ingredient('{self.name}', None, None, {self.measures_dict})"
 
     def __add__(self: "Ingredient", other: "Ingredient"):
         if not isinstance(other, Ingredient):
@@ -42,24 +43,37 @@ class Ingredient:
 
         if self.name != other.name:
             raise ValueError("not the same type of ingredient")
-
-        return self.__class__(
-            self.name, other.volume, other.unit_of_measure, self.measures_dict.copy()
-        )
-
-    def __truediv__(self, other: int | float):
-        if not isinstance(other, (int, float)):
-            raise NotImplementedError(f"{other} is not a number")
+        measures_1 = self.measures_dict
+        measures_2 = other.measures_dict
+        all_units = set(self.measures_dict.keys()).union(other.measures_dict.keys())
 
         new_dict = {
-            unit: quantity / other for unit, quantity in self.measures_dict.items()
+            unit: measures_1.get(unit, 0) + measures_2.get(unit, 0)
+            for unit in all_units
         }
-        return self.__class__(
-            self.name,
-            0,
-            self.unit_of_measure,
-            new_dict,
-        )
+
+        return self.__class__(self.name, None, None, new_dict)
+
+    def __truediv__(self, portions: int | float):
+        if not isinstance(portions, (int, float)):
+            raise NotImplementedError(f"{portions} is not a number")
+
+        new_dict = {
+            unit: quantity / portions for unit, quantity in self.measures_dict.items()
+        }
+        return self.__class__(self.name, None, None, new_dict)
+
+    def __mul__(self, portions: int | float):
+        if not isinstance(portions, (int, float)):
+            raise NotImplementedError(f"{portions} is not a number")
+
+        # measures dict is {unit: amount} e.g. {"g": 200, "unit": ,10}
+        # unit amount, multiplying by the portions, which is other.
+
+        new_dict = {
+            unit: quantity * portions for unit, quantity in self.measures_dict.items()
+        }
+        return self.__class__(self.name, None, None, new_dict)
 
     def __eq__(self, other):
         if not isinstance(other, Ingredient):
@@ -71,18 +85,16 @@ class Ingredient:
         return self.measures_dict == other.measures_dict
 
 
-### TODO: try to get recipe selection to be a dict of recipe to portion size.
-###  i.e. carbonara 1 portion would be half of all the ingredients.
 class Recipe:
     """The representation of a recipe"""
 
-    def __init__(self, name, ingredients: dict[str, list[int, str]], portions):
+    def __init__(self, name, ingredients: dict[str, Ingredient], portions):
         self.name = name
 
         # we want to normalise this to get the ingredients for a single portion
         self._normalised_ingredients = {
-            ingredient: [quantity / portions, unit]
-            for ingredient, (quantity, unit) in ingredients.items()
+            ing_name: ingredient / portions
+            for ing_name, ingredient in ingredients.items()
         }
 
         self.ingredients = ingredients
@@ -90,13 +102,14 @@ class Recipe:
         self.portions = portions
 
     def ingredient_quantity(self, portions_to_cook: int | float):
-        """This will give you back the amount of ingredients based on the number of portions you wish to cook"""
+        """This will give you back the amount of ingredients based on the number of
+        portions you wish to cook"""
         if portions_to_cook == self.portions:
             return self.ingredients
 
         return {
-            ingredient: [quantity * portions_to_cook, unit]
-            for ingredient, (quantity, unit) in self._normalised_ingredients.items()
+            ing_name: ingredient * portions_to_cook
+            for ing_name, ingredient in self._normalised_ingredients.items()
         }
 
     def __str__(self):
@@ -112,6 +125,7 @@ class Recipe:
 
 # we want to be able to select multiple recipes
 def recipe_selection(recipes: dict[str, Recipe]):
+    """Prompts the user for which recipes and quantities they want to cook"""
     list_of_wanted_recipes = []
     # input
     valid_choices = list(recipes.keys())
@@ -174,19 +188,29 @@ def make_shopping_list(
                 # if the ingredient has never shown up before, its the first time
                 # so we set it to 1
                 shopping_list[ingredient] = quantity
-    # TODO do a .join(selection list) to join the number and the measure together
     return shopping_list
 
 
 def main():
-    with open("recipes.json") as file_handle:
+    """Entry point"""
+    with open("recipes.json", encoding="utf-8") as file_handle:
         recipes: dict[str, dict] = json.loads(file_handle.read())
 
-    recipes = {key: Recipe(name=key, **value) for key, value in recipes.items()}
+    recipes = {
+        key: Recipe(
+            name=key,
+            portions=value["portions"],
+            ingredients={
+                name: Ingredient(name, *ingredient)
+                for name, ingredient in value["ingredients"].items()
+            },
+        )
+        for key, value in recipes.items()
+    }
 
     selections = recipe_selection(recipes)
     shopping_list = make_shopping_list(selections, recipes)
-    print(shopping_list)
+    print(*shopping_list.values(), sep=", ")
 
 
 if __name__ == "__main__":
