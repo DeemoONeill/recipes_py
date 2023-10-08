@@ -1,43 +1,109 @@
 {
     "carbonara": {
         "ingredients": {
-            "egg": 2,
-            "parmesan cheese": 1,
-            "spaghetti": 1,
-            "bacon": 4
+            "egg": [
+                2,
+                "unit"
+            ],
+            "parmesan cheese": [
+                200,
+                "g"
+            ],
+            "spaghetti": [
+                200,
+                "g"
+            ],
+            "bacon": [
+                4,
+                "Rashers"
+            ]
         },
         "portions": 2
     },
     "bacon and egg muffins": {
         "ingredients": {
-            "egg": 1,
-            "english muffins": 1,
-            "bacon": 2,
-            "butter": 1
+            "egg": [
+                1,
+                "Unit"
+            ],
+            "english muffins": [
+                1,
+                "Unit"
+            ],
+            "bacon": [
+                2,
+                "Rashers"
+            ],
+            "butter": [
+                1,
+                "tsp"
+            ]
         },
         "portions": 1
     },
     "beef keema": {
         "ingredients": {
-            "rice": 1,
-            "beef mince": 1,
-            "curry powder": 1,
-            "carrot": 2,
-            "ginger": 1,
-            "garlic clove": 3,
-            "coriander": 1,
-            "chicken stock": 1
+            "rice": [
+                150,
+                "g"
+            ],
+            "beef mince": [
+                300,
+                "g"
+            ],
+            "curry powder": [
+                1,
+                "Tbsp"
+            ],
+            "carrot": [
+                2,
+                "Unit"
+            ],
+            "ginger": [
+                15,
+                "g"
+            ],
+            "garlic clove": [
+                3,
+                "g"
+            ],
+            "coriander": [
+                10,
+                "g"
+            ],
+            "chicken stock": [
+                1,
+                "Unit"
+            ]
         },
         "portions": 2
     },
     "carrot soup": {
         "ingredients": {
-            "carrot": 5,
-            "onion": 2,
-            "coriander": 1,
-            "garlic clove": 1,
-            "pepper": 1,
-            "vegetable stock": 2
+            "carrot": [
+                5,
+                "Unit"
+            ],
+            "onion": [
+                2,
+                "Unit"
+            ],
+            "coriander": [
+                10,
+                "g"
+            ],
+            "garlic clove": [
+                1,
+                "Unit"
+            ],
+            "pepper": [
+                1,
+                "Unit"
+            ],
+            "vegetable stock": [
+                2,
+                "Unit"
+            ]
         },
         "portions": 2
     }

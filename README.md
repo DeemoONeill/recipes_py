@@ -10,7 +10,7 @@
 - [x] factor things out into functions
 - [x] persist recipes outside of code (json)
 - [x] serving sizes of recipes
-- [ ] measures for ingredients
+- [x] measures for ingredients
 - [ ] write terminal script to add recipes
 - [ ] tag recipes
 
