@@ -5,39 +5,103 @@ import json
 import pyinputplus as pyin
 
 
+### TODO: try to get recipe selection to be a dict of recipe to portion size.
+###  i.e. carbonara 1 portion would be half of all the ingredients.
+class Recipe:
+    """The representation of a recipe"""
+
+    def __init__(self, name, ingredients: dict[str, int], portions):
+        self.name = name
+
+        # we want to normalise this to get the ingredients for a single portion
+        self._normalised_ingredients = {
+            ingredient: quantity / portions
+            for ingredient, quantity in ingredients.items()
+        }
+
+        # TODO: add ingredients class with rules for how to divide them.
+        # e.g. eggs / any number should give a minimum of 1
+        # pasta can be divisible by any number
+        self.ingredients = ingredients
+
+        self.portions = portions
+
+    def ingredient_quantity(self, portions_to_cook: int | float):
+        if portions_to_cook == self.portions:
+            return self.ingredients
+
+        return {
+            ingredient: quantity * portions_to_cook
+            for ingredient, quantity in self._normalised_ingredients.items()
+        }
+
+    def __str__(self):
+        return f"A recipe for {self.name}, that serves {self.portions}"
+
+    def __repr__(self) -> str:
+        return (
+            f"Recipe(name='{self.name}', "
+            + f"ingredients={self.ingredients}, "
+            + f"portions={self.portions})"
+        )
+
+
 # we want to be able to select multiple recipes
-def recipe_selection(recipes: dict):
+def recipe_selection(recipes: dict[str, Recipe]):
     list_of_wanted_recipes = []
     # input
     valid_choices = list(recipes.keys())
     while True:
-        selection = pyin.inputChoice(
+        selection: str = pyin.inputChoice(
             valid_choices, strip=True, caseSensitive=False, blank=True
         )
 
         if not selection:
             break
 
-        portions = pyin.inputNum(
-            "how many portions do you want to cook?: ", default=1, strip=True, min=1
+        recipe = recipes[selection]
+        # recipes = {"carbonara", Recipe("carbonara", ingredients, portions)}
+        # var = recipes["carbonara"] -> Recipe("carbonara")
+        # var = Recipe("carbonara")
+        # var.name == "carbonara"
+        # var.portions == 2
+
+        print(f"This recipe makes {recipe.portions} portions.")
+
+        portions: int = pyin.inputNum(
+            "If you want a different number please enter it here: ",
+            default=recipe.portions,
+            strip=True,
+            min=1,
+            blank=True,
         )
 
-        list_of_wanted_recipes.extend([selection] * portions)
+        if not portions:
+            portions = recipe.portions
+
+        list_of_wanted_recipes.append((selection, portions))
+
     return list_of_wanted_recipes
 
 
 # we want to aggregate all the ingredients from those, to make a shopping list
 
 
-def make_shopping_list(selections: list, recipes: dict) -> dict:
+def make_shopping_list(
+    selections: list[tuple[str, int]], recipes: dict[str, Recipe]
+) -> dict:
     """This function takes a list of recipe selections and
     returns a shopping list
     """
 
     shopping_list = {}
-    for key in selections:
+    for key, portions in selections:
         # loop through the ingredients in each recipe
-        for ingredient, quantity in recipes[key].items():
+        # get our selection from the recipes dict
+        selection = recipes[key]
+        # calculated the ingredients for the requested portions
+        ingredients = selection.ingredient_quantity(portions)
+        for ingredient, quantity in ingredients.items():
             # loop through each ingredient in each list
             if ingredient in shopping_list:
                 # if the ingredient has shown up before, add 1 to it
@@ -51,7 +115,9 @@ def make_shopping_list(selections: list, recipes: dict) -> dict:
 
 def main():
     with open("recipes.json") as file_handle:
-        recipes = json.loads(file_handle.read())
+        recipes: dict[str, dict] = json.loads(file_handle.read())
+
+    recipes = {key: Recipe(name=key, **value) for key, value in recipes.items()}
 
     selections = recipe_selection(recipes)
     shopping_list = make_shopping_list(selections, recipes)
