@@ -17,7 +17,7 @@ with open("dhal_with_roasted_cauliflower.csv", encoding="utf - 8") as FH:
 # structure the data here
 split_recipe_name = recipe_name.split(",")
 cleaned_recipe_name = split_recipe_name[0]
-recipe = {cleaned_recipe_name: "ingredients"}
+
 ingredients = []
 for row in rows:
     ingredients.extend(row)
@@ -28,5 +28,9 @@ weights_and_measures = ingredients[0 : len(ingredients) : 2]
 new_weights_and_measures = " ".join(weights_and_measures)
 split_weights_and_measures = new_weights_and_measures.split(" ")
 weights = split_weights_and_measures[0 : len(split_weights_and_measures) : 2]
-print(weights)
+
+
+recipe = {cleaned_recipe_name: {"ingredients": ingredient_names}}
+print(recipe)
+
 # export this out to json
