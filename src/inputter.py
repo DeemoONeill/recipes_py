@@ -2,6 +2,7 @@
 
 import csv
 import json
+import re
 
 recipe_name = ""
 rows = []
@@ -15,22 +16,25 @@ with open("dhal_with_roasted_cauliflower.csv", encoding="utf - 8") as FH:
 
 
 # structure the data here
-split_recipe_name = recipe_name.split(",")
+split_recipe_name = recipe_name.strip().split(",")
 cleaned_recipe_name = split_recipe_name[0]
 
-ingredients = []
-for row in rows:
-    ingredients.extend(row)
-ingredient_names = ingredients[1 : len(ingredients) : 2]
 
+ingredients = {}
+for value, key in rows:
+    # need to split the value of the ones with both weight and measure
+    unit = ""
+    measure = ""
+    for char in value:
+        if char.isalpha():
+            unit += char
+        elif not char.isalpha():
+            measure += char
+    ingredients[key] = [measure, unit]
 
-weights_and_measures = ingredients[0 : len(ingredients) : 2]
-new_weights_and_measures = " ".join(weights_and_measures)
-split_weights_and_measures = new_weights_and_measures.split(" ")
-weights = split_weights_and_measures[0 : len(split_weights_and_measures) : 2]
-
-
-recipe = {cleaned_recipe_name: {"ingredients": ingredient_names}}
-print(recipe)
 
 # export this out to json
+with open("output.json", "w") as output:
+    recipe = {cleaned_recipe_name: {"ingredients": ingredients, "portions": 2}}
+    print(recipe)
+    json.dump(recipe, output)
