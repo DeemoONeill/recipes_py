@@ -30,6 +30,11 @@ for value, key in rows:
             unit += char
         elif not char.isalpha():
             measure += char
+    if unit == "":
+        unit = "unit"
+    if unit == "toserve":
+        break
+    print(unit)
     ingredients[key] = [measure, unit]
 
 
