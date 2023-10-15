@@ -34,6 +34,8 @@ for value, key in rows:
         unit = "unit"
     if unit == "toserve":
         break
+    if key == "":
+        break
     print(unit)
     ingredients[key] = [measure, unit]
 
