@@ -7,6 +7,10 @@ from pathlib import Path
 import click
 
 measures_re = re.compile(r"(?P<measure>[\d\.]+)?\s?(?P<unit>[\w\s]+)?")
+# ?P<name> names the capture groups
+# ([\d\.]+)? captures zero or more digits or fullstops
+# \s? followed by zero or more spaces
+# ([\w\s]+)? captures zero or more words and spaces
 
 
 def recipe_builder(filename):
@@ -34,7 +38,7 @@ def recipe_builder(filename):
     ingredients = {}
     for value, key in rows:
         # need to split the value of the ones with both weight and measure
-        matched = re.match(measures_re, value)
+        matched = measures_re.match(value)
         if not matched:
             continue
         measure, unit = matched.groups()
