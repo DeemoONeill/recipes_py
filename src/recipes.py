@@ -2,7 +2,7 @@
 # we want recipes, minimum: name, ingredients
 import json
 
-import pyinputplus as pyin
+import pyinputplus as pyin  # type: ignore
 
 Units = str
 """Units for ingredients"""
@@ -17,14 +17,16 @@ class Ingredient:
     def __init__(
         self,
         name: str,
-        volume: Volume = None,
-        unit_of_measure: Units = None,
+        volume: Volume | str | None = None,
+        unit_of_measure: Units | None = None,
         measures_dict: dict[Units, Volume] | None = None,
     ):
         if measures_dict is None:
             measures_dict = {}
         self.measures_dict = measures_dict
         self.name = name
+        if not isinstance(volume, (int, float)):
+            volume = float(volume) if volume is not None else float()
         if unit_of_measure and volume:
             self.measures_dict[unit_of_measure.lower()] = volume
 
@@ -128,14 +130,23 @@ def recipe_selection(recipes: dict[str, Recipe]):
     """Prompts the user for which recipes and quantities they want to cook"""
     list_of_wanted_recipes = []
     # input
-    valid_choices = list(recipes.keys())
+    list_of_recipes = list(recipes.keys())
+    valid_choices = list(enumerate(list_of_recipes, start=1))
+
     while True:
-        selection: str = pyin.inputChoice(
-            valid_choices, strip=True, caseSensitive=False, blank=True
-        )
+        print("please select one of the following recipes:")
+        for i in range(0, len(valid_choices), 4):
+            print(
+                *[f"{num}: {recipe}" for num, recipe in valid_choices[i : i + 4]],
+                sep=" -- ",
+            )
+        choices = [str(number) for number, _ in valid_choices]
+        selection: str = pyin.inputChoice(choices, strip=True, blank=True)
 
         if not selection:
             break
+        selection = list_of_recipes[int(selection) - 1]
+        print("selected:", selection)
 
         recipe = recipes[selection]
         # recipes = {"carbonara", Recipe("carbonara", ingredients, portions)}
@@ -172,7 +183,7 @@ def make_shopping_list(
     returns a shopping list
     """
 
-    shopping_list = {}
+    shopping_list: dict[str, Ingredient] = {}
     for key, portions in selections:
         # loop through the ingredients in each recipe
         # get our selection from the recipes dict
@@ -210,7 +221,8 @@ def main():
 
     selections = recipe_selection(recipes)
     shopping_list = make_shopping_list(selections, recipes)
-    print(*shopping_list.values(), sep=", ")
+    with open("shopping_list.txt", "w") as fh:
+        print(*shopping_list.values(), file=fh, sep="\n")
 
 
 if __name__ == "__main__":

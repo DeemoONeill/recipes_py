@@ -11,7 +11,8 @@
 - [x] persist recipes outside of code (json)
 - [x] serving sizes of recipes
 - [x] measures for ingredients
-- [ ] write terminal script to add recipes
+- [x] write terminal script to add recipes
+- [x] add recipes to the existing recipe file
 - [ ] tag recipes
 
 ## stretch goals
@@ -20,3 +21,5 @@
 - [ ] persist recipes outside of code (database)
 - [ ] add pricing
 - [ ] add nutrition
+- [ ] store cupboard?
+- [ ] import to store cupboard from a receipt
