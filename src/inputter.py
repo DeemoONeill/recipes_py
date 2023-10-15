@@ -1,3 +1,4 @@
+"""A module to input recipes from csv files"""
 import csv
 import json
 import re
@@ -9,6 +10,7 @@ measures_re = re.compile(r"(?P<measure>[\d\.]+)?\s?(?P<unit>[\w\s]+)?")
 
 
 def recipe_builder(filename):
+    """builds a recipe dictionary from a csv file"""
     # read the file into this
     recipe_name = ""
     rows = []
@@ -16,11 +18,10 @@ def recipe_builder(filename):
     if filename.suffix != ".csv":
         return {}
 
-    with open(filename, encoding="utf - 8") as FH:
-        reader = csv.reader(FH)
-        # print(header)
-        recipe_name = next(FH)
-        rows = [row for row in reader]
+    with open(filename, encoding="utf - 8") as fh:
+        reader = csv.reader(fh)
+        recipe_name = next(fh)
+        rows = list(reader)
 
     # structure the data here
     split_recipe_name = recipe_name.strip().split(",")
@@ -55,6 +56,7 @@ def recipe_builder(filename):
 @click.argument("filename")
 @click.option("-o", "--output", default=None, type=Path)
 def click_main(filename, output):
+    """entry point for command line usage"""
     filename = Path(filename)
     if filename.is_file():
         recipe = recipe_builder(filename)
@@ -73,10 +75,10 @@ def click_main(filename, output):
         existing.update(recipe)
         recipe = existing
 
-    with open(output, "w") as output:
+    with open(output, "w", encoding="utf-8") as fh:
         # print(recipe)
-        json.dump(recipe, output, indent=4)
+        json.dump(recipe, fh, indent=4)
 
 
 if __name__ == "__main__":
-    click_main()
+    click_main()  # pylint: disable = no-value-for-parameter

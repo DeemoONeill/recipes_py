@@ -221,7 +221,7 @@ def main():
 
     selections = recipe_selection(recipes)
     shopping_list = make_shopping_list(selections, recipes)
-    with open("shopping_list.txt", "w") as fh:
+    with open("shopping_list.txt", "w", encoding="utf-8") as fh:
         print(*shopping_list.values(), file=fh, sep="\n")
 
 
