@@ -22,9 +22,8 @@ def recipe_builder(filename):
     if filename.suffix != ".csv":
         return {}
 
-    print(filename)
-    with open(filename, encoding="utf-8-sig") as fh:
-        reader = csv.reader(fh, quotechar='"')
+    with open(filename, encoding="utf - 8") as fh:
+        reader = csv.reader(fh)
         recipe_name = next(fh)
         rows = list(reader)
 

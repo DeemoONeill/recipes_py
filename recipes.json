@@ -106,5 +106,407 @@
             ]
         },
         "portions": 2
+    },
+    "Butternut squash tart with pumpkin seed pesto": {
+        "ingredients": {
+            "butternut squash neck": [
+                350.0,
+                "g"
+            ],
+            "thume leaves": [
+                1.0,
+                "tsp"
+            ],
+            "dried chilli flake": [
+                2.0,
+                "pinches"
+            ],
+            "maple syrup": [
+                1.5,
+                "tbsp"
+            ],
+            "olive oil": [
+                1.5,
+                "tbsp"
+            ],
+            "flour": [
+                0.0,
+                "unit"
+            ],
+            "vegan puff pastry": [
+                500.0,
+                "g"
+            ],
+            "sea salt": [
+                0.0,
+                "unit"
+            ],
+            "black pepper": [
+                0.0,
+                "unit"
+            ],
+            "pumpkin seeds": [
+                20.0,
+                "g"
+            ],
+            "pine nuts": [
+                15.0,
+                "g"
+            ],
+            "basil leaves": [
+                30.0,
+                "g"
+            ],
+            "garlic clove": [
+                0.0,
+                "half"
+            ],
+            "lemon juice": [
+                0.0,
+                "squeeze"
+            ],
+            "extra virgin olive oil": [
+                50.0,
+                "ml"
+            ],
+            "rocket": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Christmas Cake": {
+        "ingredients": {
+            "currants": [
+                165.0,
+                "g"
+            ],
+            "raisins": [
+                220.0,
+                "g"
+            ],
+            "sultanas": [
+                165.0,
+                "g"
+            ],
+            "glace cherries": [
+                55.0,
+                "g"
+            ],
+            "candied citrus peel": [
+                55.0,
+                "g"
+            ],
+            "brandy, plus extra for feeding": [
+                55.0,
+                "ml"
+            ],
+            "orange, zest and juice": [
+                1.0,
+                "unit"
+            ],
+            "lemon, zest and juice": [
+                1.0,
+                "unit"
+            ],
+            "wholemeal flour": [
+                385.0,
+                "g"
+            ],
+            "salt": [
+                0.5,
+                "tsp"
+            ],
+            "bicarbonate of soda": [
+                1.0,
+                "tsp"
+            ],
+            "mixed spice": [
+                0.5,
+                "tsp"
+            ],
+            "cinnamon": [
+                0.5,
+                "tsp"
+            ],
+            "ground allspice": [
+                0.25,
+                "tsp"
+            ],
+            "margarine": [
+                190.0,
+                "g"
+            ],
+            "ground flaxseed": [
+                2.0,
+                "tbsp"
+            ],
+            "soft dark brown sugar": [
+                190.0,
+                "g"
+            ],
+            "black treacle": [
+                2.0,
+                "tbsp"
+            ],
+            "soya milk": [
+                130.0,
+                "ml"
+            ]
+        },
+        "portions": 4
+    },
+    "dhal with roasted cauliflower": {
+        "ingredients": {
+            "cauliflower": [
+                450.0,
+                "g"
+            ],
+            "olive oil": [
+                1.0,
+                "tbsp"
+            ],
+            "cumin seeds": [
+                1.0,
+                "tsp"
+            ],
+            "red lentils": [
+                200.0,
+                "g"
+            ],
+            "ground tumeric": [
+                0.5,
+                "tsp"
+            ],
+            "coconut oil": [
+                2.0,
+                "tbsp"
+            ],
+            "banana shallots": [
+                2.0,
+                "unit"
+            ],
+            "garlic cloves": [
+                2.0,
+                "unit"
+            ],
+            "black mustard seeds": [
+                1.0,
+                "tsp"
+            ],
+            "ground cumin": [
+                1.0,
+                "tsp"
+            ],
+            "tomatoes": [
+                150.0,
+                "g"
+            ],
+            "sea salt": [
+                0.0,
+                "unit"
+            ],
+            "black pepper": [
+                0.0,
+                "unit"
+            ],
+            "rice or roast potatoes": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Super Grreen Soup": {
+        "ingredients": {
+            "coconut oil": [
+                1.0,
+                "tbsp"
+            ],
+            "shallots": [
+                3.0,
+                "unit"
+            ],
+            "ginger": [
+                2.0,
+                "cm"
+            ],
+            "green jalapeno": [
+                1.0,
+                "unit"
+            ],
+            "fat clove of garlic": [
+                1.0,
+                "unit"
+            ],
+            "head of broccoli": [
+                1.0,
+                "unit"
+            ],
+            "vegetable stock": [
+                600.0,
+                "ml"
+            ],
+            "frozen peas": [
+                150.0,
+                "g"
+            ],
+            "coconut cream": [
+                400.0,
+                "ml"
+            ],
+            "baby spinach": [
+                120.0,
+                "g"
+            ],
+            "mint leaves": [
+                1.0,
+                "small bunch"
+            ],
+            "salt and pepper": [
+                0.0,
+                "unit"
+            ],
+            "chilli flakes": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Sweet potato dosa": {
+        "ingredients": {
+            "urid dhal": [
+                100.0,
+                "g"
+            ],
+            "white basmati rice": [
+                200.0,
+                "g"
+            ],
+            "sweet potatoes": [
+                2.0,
+                "unit"
+            ],
+            "red lentils": [
+                70.0,
+                "g"
+            ],
+            "coconut oil": [
+                2.0,
+                "tsp"
+            ],
+            "small shallots": [
+                4.0,
+                "unit"
+            ],
+            "red chilli": [
+                0.0,
+                "half"
+            ],
+            "ginger": [
+                4.0,
+                "cm"
+            ],
+            "ground turmeric": [
+                1.0,
+                "tsp"
+            ],
+            "garam masala": [
+                1.0,
+                "tsp"
+            ],
+            "cumin seeds": [
+                2.0,
+                "tsp"
+            ],
+            "lime (juice)": [
+                1.0,
+                "unit"
+            ],
+            "corriander": [
+                0.0,
+                "small bunch"
+            ],
+            "sea salt": [
+                0.0,
+                "unit"
+            ],
+            "black pepper": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Sweetcorn fritters with roasted tomatoes & avocado": {
+        "ingredients": {
+            "vine tomatoes": [
+                220.0,
+                "g"
+            ],
+            "balsamic vinegar": [
+                2.0,
+                "tsp"
+            ],
+            "olive oil": [
+                0.0,
+                "unit"
+            ],
+            "plain flour": [
+                80.0,
+                "g"
+            ],
+            "baking powder": [
+                1.0,
+                "tsp"
+            ],
+            "vegan egg replacer": [
+                2.0,
+                "tbsp"
+            ],
+            "soya milk": [
+                120.0,
+                "ml"
+            ],
+            "sweetcorn": [
+                200.0,
+                "g"
+            ],
+            "parsley": [
+                0.0,
+                "small bunch"
+            ],
+            "corriander": [
+                0.0,
+                "small bunch"
+            ],
+            "zest of 1 lime": [
+                1.0,
+                "unit"
+            ],
+            "spring onions": [
+                2.0,
+                "unit"
+            ],
+            "avocado": [
+                1.0,
+                "unit"
+            ],
+            "chilli flakes": [
+                0.0,
+                "unit"
+            ],
+            "sea salt": [
+                0.0,
+                "unit"
+            ],
+            "pepper": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
     }
 }
