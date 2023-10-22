@@ -13,10 +13,15 @@
 - [x] measures for ingredients
 - [x] write terminal script to add recipes
 - [x] add recipes to the existing recipe file
-- [ ] tag recipes
+- [ ] webserver (FastAPI, flask, django)
+- [ ] template recipe selection - "checkbox + submit"
+- [ ] template portion selection - "number input + submit"
+- [ ] template shopping list with checkboxes to tick off purchased items
+- [ ] have an endpoint which diffs shopping list with checked off items
 
 ## stretch goals
 
+- [ ] tag recipes
 - [ ] import recipes from internet
 - [ ] persist recipes outside of code (database)
 - [ ] add pricing

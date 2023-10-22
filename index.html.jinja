@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Selector</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Recipes</h1>
+    <p>Please select the recipes for the following week</p>
+    <form action="/selected" method="get">
+      {% for key, values in recipes.items() %}
+      <input type="checkbox" name="recipe" id="{{ key }}" value="{{ key }}" />
+      <label for="{{ key }}">{{ key }}</label>
+      <input
+        type="number"
+        name="portions"
+        id="{{ key }}_portion"
+        value="{{ values['portions'] }}"
+      />
+      <label for="{{ key }}_portion">portion size</label>
+      <br />
+      {% endfor %}
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
