@@ -130,7 +130,7 @@ def recipe_selection(recipes: dict[str, Recipe]):
     """Prompts the user for which recipes and quantities they want to cook"""
     list_of_wanted_recipes = []
     # input
-    list_of_recipes = list(recipes.keys())
+    list_of_recipes = sorted(recipes.keys())
     valid_choices = list(enumerate(list_of_recipes, start=1))
 
     while True:
@@ -208,7 +208,7 @@ def main():
         recipes: dict[str, dict] = json.loads(file_handle.read())
 
     recipes = {
-        key: Recipe(
+        key.title(): Recipe(
             name=key,
             portions=value["portions"],
             ingredients={
