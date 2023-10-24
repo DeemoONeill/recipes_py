@@ -21,6 +21,7 @@
 
 ## stretch goals
 
+- [ ] search recipes on the front end using an ingredient. E.G. Tofu
 - [ ] tag recipes
 - [ ] import recipes from internet
 - [ ] persist recipes outside of code (database)
