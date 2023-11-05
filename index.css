@@ -1,0 +1,12 @@
+body{
+    background: #172633;
+    color: #ced3d9;
+}
+
+.portion {
+    padding-left: 2.5em;
+    padding-top: 0;
+    margin-top: 0.25em;
+    margin-bottom: 0;
+    font-size: 0.90em;
+}
