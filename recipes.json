@@ -157,9 +157,9 @@
                 30.0,
                 "g"
             ],
-            "garlic clove": [
-                0.0,
-                "half"
+            "garlic": [
+                0.5,
+                "clove"
             ],
             "lemon juice": [
                 0.0,
@@ -287,9 +287,9 @@
                 2.0,
                 "unit"
             ],
-            "garlic cloves": [
+            "garlic": [
                 2.0,
-                "unit"
+                "cloves"
             ],
             "black mustard seeds": [
                 1.0,
@@ -318,7 +318,7 @@
         },
         "portions": 4
     },
-    "Super Grreen Soup": {
+    "Super Green Soup": {
         "ingredients": {
             "coconut oil": [
                 1.0,
@@ -336,9 +336,9 @@
                 1.0,
                 "unit"
             ],
-            "fat clove of garlic": [
+            "garlic": [
                 1.0,
-                "unit"
+                "fat clove"
             ],
             "head of broccoli": [
                 1.0,
@@ -486,7 +486,7 @@
                 1.0,
                 "unit"
             ],
-            "spring onions": [
+            "spring onion": [
                 2.0,
                 "unit"
             ],
@@ -505,6 +505,2790 @@
             "pepper": [
                 0.0,
                 "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "5-a-day toad-in-the-hole": {
+        "ingredients": {
+            "large eggs": [
+                4.0,
+                "unit"
+            ],
+            "whole milk": [
+                350.0,
+                "ml"
+            ],
+            "english mustard": [
+                2.0,
+                "tbsp"
+            ],
+            "plain flour": [
+                230.0,
+                "g"
+            ],
+            "salt": [
+                1.0,
+                "tsp"
+            ],
+            "sunflower oil": [
+                4.0,
+                "tbsp"
+            ],
+            "large celeriac": [
+                0.5,
+                "unit"
+            ],
+            "beetroot": [
+                2.0,
+                "unit"
+            ],
+            "large swede": [
+                0.5,
+                "unit"
+            ],
+            "olive oil": [
+                75.0,
+                "ml"
+            ],
+            "tomato paste": [
+                2.0,
+                "tbsp"
+            ],
+            "maple syrup": [
+                2.0,
+                "tbsp"
+            ],
+            "datterini or regular cherry tomatoes": [
+                200.0,
+                "g"
+            ],
+            "rosemary sprigs": [
+                2.0,
+                "unit"
+            ],
+            "salt and black pepper": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Aubergine Katsu Curry": {
+        "ingredients": {
+            "rapeseed oil": [
+                3.0,
+                "tbsp"
+            ],
+            "onion": [
+                1.0,
+                "unit"
+            ],
+            "carrots": [
+                2.0,
+                "Medium"
+            ],
+            "sweet potato": [
+                200.0,
+                "g"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "ginger": [
+                1.5,
+                "cm"
+            ],
+            "curry powder": [
+                2.0,
+                "tbsp"
+            ],
+            "plain flour": [
+                10.0,
+                "tbsp"
+            ],
+            "vegetable stock": [
+                500.0,
+                "ml"
+            ],
+            "light soy sauce": [
+                2.0,
+                "tbsp"
+            ],
+            "tomato ketchup": [
+                2.0,
+                "tbsp"
+            ],
+            "salt": [
+                0.0,
+                "unit"
+            ],
+            "aubergines": [
+                2.0,
+                "unit"
+            ],
+            "panko breadcrumbs": [
+                200.0,
+                "g"
+            ]
+        },
+        "portions": 4
+    },
+    "Autumn Pilau": {
+        "ingredients": {
+            "basmati rice": [
+                300.0,
+                "g"
+            ],
+            "squash": [
+                1.0,
+                "kg squash"
+            ],
+            "rapeseed oil": [
+                5.0,
+                "tbsp"
+            ],
+            "salt and ground black pepper": [
+                0.0,
+                "unit"
+            ],
+            "brown onion": [
+                3.0,
+                "unit"
+            ],
+            "smoked garlic": [
+                4.0,
+                "cloves"
+            ],
+            "tsp ground cumin": [
+                1.5,
+                "tsp"
+            ],
+            "tsp garam masala": [
+                1.5,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ],
+            "green finger chilli": [
+                2.0,
+                "unit"
+            ],
+            "fresh coriander": [
+                20.0,
+                "g"
+            ],
+            "cavolo nero": [
+                200.0,
+                "g"
+            ],
+            "lemon": [
+                1.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Ben ben noodles": {
+        "ingredients": {
+            "fresh shiitake mushrooms": [
+                250.0,
+                "g"
+            ],
+            "sichuan peppercorns": [
+                1.0,
+                "tsp"
+            ],
+            "rapeseed oil": [
+                1.0,
+                "tbsp"
+            ],
+            "pickled gherkins": [
+                40.0,
+                "g"
+            ],
+            "spring onion": [
+                2.0,
+                "unit"
+            ],
+            "shaoxing rice wine": [
+                1.0,
+                "tbsp"
+            ],
+            "light soy sauce": [
+                3.0,
+                "tbsp"
+            ],
+            "wholewheat noodles": [
+                200.0,
+                "g"
+            ],
+            "choi sum or baby pak choi,": [
+                200.0,
+                "g"
+            ],
+            "tahini": [
+                3.0,
+                "tbsp"
+            ],
+            "chilli oil, with sediment": [
+                1.0,
+                "tbsp"
+            ],
+            "chinkiang vinegar": [
+                1.0,
+                "tbsp"
+            ]
+        },
+        "portions": 4
+    },
+    "Black dal": {
+        "ingredients": {
+            "whole black gram (urad beans)": [
+                300.0,
+                "g"
+            ],
+            "rapeseed oil": [
+                3.0,
+                "tbsp"
+            ],
+            "cinnamon stick": [
+                1.0,
+                "unit"
+            ],
+            "bay leaf": [
+                1.0,
+                "unit"
+            ],
+            "red onion": [
+                2.0,
+                "unit"
+            ],
+            "ginger": [
+                3.0,
+                "cm"
+            ],
+            "garlic": [
+                6.0,
+                "cloves"
+            ],
+            "400g tin of chopped tomatoes": [
+                1.0,
+                "unit"
+            ],
+            "tomato puree": [
+                2.0,
+                "tbsp"
+            ],
+            "salt": [
+                1.5,
+                "tsp"
+            ],
+            "ground cumin": [
+                1.0,
+                "tsp"
+            ],
+            "ground coriander": [
+                1.0,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.25,
+                "tsp"
+            ],
+            "kashmiri chilli powder": [
+                0.75,
+                "tsp"
+            ],
+            "garam masala": [
+                0.5,
+                "tsp"
+            ],
+            "1 tsp kasuri methi": [
+                0.0,
+                "optional"
+            ]
+        },
+        "portions": 4
+    },
+    "Black-eyed bean and chickpea usal": {
+        "ingredients": {
+            "rapeseed oil": [
+                4.0,
+                "tbsp"
+            ],
+            "red onion": [
+                2.0,
+                "unit"
+            ],
+            "green finger chilli": [
+                2.0,
+                "unit"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "big vine tomatoes": [
+                2.0,
+                "unit"
+            ],
+            "salt": [
+                1.75,
+                "tsp"
+            ],
+            "kashmiri chilli powder": [
+                1.0,
+                "tsp"
+            ],
+            "garam masala": [
+                1.0,
+                "tsp"
+            ],
+            "ground cumin": [
+                1.0,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ],
+            "400g tin of black-eyed beans": [
+                1.0,
+                "unit"
+            ],
+            "frozen petit pois": [
+                250.0,
+                "g"
+            ],
+            "400g tin of chickpeas": [
+                1.0,
+                "unit"
+            ],
+            "mangetout": [
+                200.0,
+                "g"
+            ],
+            "lemon juice": [
+                1.0,
+                "tbsp"
+            ],
+            "fresh coriander leaves": [
+                0.0,
+                "a handful"
+            ]
+        },
+        "portions": 4
+    },
+    "Bombay Rolls": {
+        "ingredients": {
+            "fresh corriander": [
+                60.0,
+                "g"
+            ],
+            "fresh mint": [
+                20.0,
+                "g"
+            ],
+            "lemon juice": [
+                2.0,
+                "tsp"
+            ],
+            "green finger chilli": [
+                2.0,
+                "unit"
+            ],
+            "ground cumin": [
+                1.0,
+                "tsp"
+            ],
+            "salt": [
+                1.25,
+                "tsp"
+            ],
+            "rapeseed oil": [
+                2.0,
+                "tbsp"
+            ],
+            "puff pastry block (not pre-rolled)": [
+                500.0,
+                "g"
+            ],
+            "extra mature cheddar cheese": [
+                100.0,
+                "g"
+            ],
+            "small red onion": [
+                1.0,
+                "unit"
+            ],
+            "egg": [
+                1.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Caramelized onion and chilli ramen": {
+        "ingredients": {
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "large brown onion": [
+                3.0,
+                "unit"
+            ],
+            "garlic": [
+                3.0,
+                "cloves"
+            ],
+            "salt": [
+                0.5,
+                "tsp"
+            ],
+            "bird's-eye chilli": [
+                1.0,
+                "unit"
+            ],
+            "vegetable stock": [
+                1.5,
+                "litres"
+            ],
+            "cooking sake": [
+                2.0,
+                "tbsp"
+            ],
+            "light soy sauce": [
+                1.5,
+                "tbsp"
+            ],
+            "brown rice miso": [
+                1.0,
+                "tbsp"
+            ],
+            "ramen noodles": [
+                200.0,
+                "g"
+            ],
+            "choi sum": [
+                200.0,
+                "g"
+            ]
+        },
+        "portions": 4
+    },
+    "Celeriac Tofu and Kale Gado Gado": {
+        "ingredients": {
+            "small celeriac": [
+                1.0,
+                "unit"
+            ],
+            "charlotte potatoes": [
+                600.0,
+                "g"
+            ],
+            "salt": [
+                0.0,
+                "unit"
+            ],
+            "rapeseed oil": [
+                4.0,
+                "tbsp"
+            ],
+            "kale, ribs discarded": [
+                200.0,
+                "g"
+            ],
+            "200g pack of smoked tofu": [
+                1.0,
+                "unit"
+            ],
+            "chunky peanut butter": [
+                150.0,
+                "g"
+            ],
+            "dark brown sugar": [
+                2.0,
+                "tsp"
+            ],
+            "tamarind paste": [
+                2.0,
+                "tbsp"
+            ],
+            "bird's-eye chilli": [
+                2.0,
+                "unit"
+            ],
+            "soy sauce": [
+                1.0,
+                "tbsp"
+            ],
+            "clove garlic": [
+                0.5,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Chickpeas cacio e pepe": {
+        "ingredients": {
+            "dried chickpeas": [
+                300.0,
+                "g"
+            ],
+            "bicarbonate of soda": [
+                0.25,
+                "tsp"
+            ],
+            "olive oil": [
+                3.0,
+                "tbsp"
+            ],
+            "garlic": [
+                8.0,
+                "cloves"
+            ],
+            "parmesan": [
+                80.0,
+                "g"
+            ],
+            "red chilli": [
+                2.0,
+                "unit"
+            ],
+            "apple cider vinegar": [
+                2.0,
+                "tbsp"
+            ],
+            "baby spinach": [
+                250.0,
+                "g"
+            ],
+            "parsley": [
+                15.0,
+                "g"
+            ],
+            "unsalted butter": [
+                100.0,
+                "g"
+            ],
+            "salt and black pepper": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Chilli Tofu": {
+        "ingredients": {
+            "firm tofu": [
+                800.0,
+                "g"
+            ],
+            "cornflour": [
+                0.0,
+                "unit"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "cumin seeds": [
+                2.0,
+                "tsp"
+            ],
+            "onion": [
+                1.0,
+                "unit"
+            ],
+            "garlic": [
+                6.0,
+                "cloves"
+            ],
+            "ginger": [
+                3.0,
+                "unit"
+            ],
+            "green finger chilli": [
+                4.0,
+                "unit"
+            ],
+            "ground black pepper": [
+                0.25,
+                "tsp"
+            ],
+            "tomato puree": [
+                2.0,
+                "tbsp"
+            ],
+            "light soy sauce": [
+                2.0,
+                "tbsp"
+            ],
+            "caster sugar": [
+                2.0,
+                "tsp"
+            ],
+            "salt": [
+                0.75,
+                "tsp"
+            ],
+            "peppers (1 red and 1 green, ideally)": [
+                2.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Confit tandoori chickpeas": {
+        "ingredients": {
+            "tins of chickpeas": [
+                2.0,
+                "unit"
+            ],
+            "garlic": [
+                11.0,
+                "cloves"
+            ],
+            "fresh ginger": [
+                30.0,
+                "g"
+            ],
+            "cherry tomatoes": [
+                400.0,
+                "g"
+            ],
+            "red chilli": [
+                3.0,
+                "unit"
+            ],
+            "tomato paste": [
+                1.0,
+                "tbsp"
+            ],
+            "cumin seeds": [
+                2.0,
+                "tsp"
+            ],
+            "coriander seeds": [
+                2.0,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ],
+            "chilli flakes": [
+                0.5,
+                "tsp"
+            ],
+            "red kashmiri chilli powder": [
+                2.0,
+                "tsp"
+            ],
+            "caster sugar": [
+                1.0,
+                "tsp"
+            ],
+            "olive oil": [
+                200.0,
+                "ml"
+            ],
+            "salt": [
+                1.5,
+                "tsp"
+            ],
+            "serve with rice": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Curry house Jalfrezi": {
+        "ingredients": {
+            "large aubergine": [
+                1.0,
+                "unit"
+            ],
+            "sunflower or olive oil": [
+                1.0,
+                "tbsp"
+            ],
+            "onion": [
+                1.0,
+                "unit"
+            ],
+            "red pepper": [
+                1.0,
+                "unit"
+            ],
+            "fresh coriander": [
+                0.0,
+                "a small bunch"
+            ],
+            "green bird's-eye chilli": [
+                5.0,
+                "unit"
+            ],
+            "cherry tomatoes": [
+                3.0,
+                "unit"
+            ],
+            "curry powder": [
+                3.0,
+                "tbsp"
+            ],
+            "garam masala": [
+                1.0,
+                "tsp"
+            ],
+            "hot chilli powder": [
+                0.25,
+                "tsp"
+            ],
+            "tomato puree": [
+                8.0,
+                "tbsp"
+            ],
+            "cooked basmati rice": [
+                500.0,
+                "g"
+            ],
+            "piece fresh ginger": [
+                5.0,
+                "cm"
+            ],
+            "garlic": [
+                5.0,
+                "cloves"
+            ],
+            "fresh red chilli": [
+                0.5,
+                "unit"
+            ],
+            "ground coriander": [
+                0.25,
+                "tsp"
+            ],
+            "ground cumin": [
+                0.25,
+                "tsp"
+            ],
+            "ground fenugreek": [
+                0.25,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.25,
+                "tsp"
+            ],
+            "paprika": [
+                0.25,
+                "tsp"
+            ]
+        },
+        "portions": 4
+    },
+    "Faux Gras": {
+        "ingredients": {
+            "sprigs fresh rosemary": [
+                2.0,
+                "unit"
+            ],
+            "sprigs fresh thyme": [
+                3.0,
+                "unit"
+            ],
+            "sage leaves": [
+                7.0,
+                "unit"
+            ],
+            "olive oil": [
+                2.0,
+                "tbsp"
+            ],
+            "eschalion (banana) shallot": [
+                1.0,
+                "unit"
+            ],
+            "salt": [
+                0.0,
+                "a pinch"
+            ],
+            "garlic": [
+                2.0,
+                "cloves"
+            ],
+            "button mushrooms": [
+                18.0,
+                "unit"
+            ],
+            "cognac": [
+                2.0,
+                "tbsp"
+            ],
+            "walnuts": [
+                150.0,
+                "g"
+            ],
+            "lentils": [
+                400.0,
+                "g or 180g dry cooked"
+            ],
+            "soy sauce": [
+                2.5,
+                "tbsp"
+            ],
+            "cooked beetroot": [
+                1.0,
+                "unit"
+            ],
+            "dairy-free butter": [
+                100.0,
+                "g"
+            ],
+            "peppercorns": [
+                0.0,
+                "a few"
+            ],
+            "good-quality toasted sourdough bread or baguette": [
+                0.0,
+                "To serve"
+            ]
+        },
+        "portions": 4
+    },
+    "Gnocchi with sumac onions and brown butter pine nuts": {
+        "ingredients": {
+            "gnocchi": [
+                1.0,
+                "pack"
+            ],
+            "olive oil": [
+                2.0,
+                "tbsp"
+            ],
+            "unsalted butter": [
+                70.0,
+                "g"
+            ],
+            "pine nuts": [
+                35.0,
+                "g"
+            ],
+            "lemon juice": [
+                2.0,
+                "tbsp"
+            ],
+            "parsley leaves": [
+                5.0,
+                "g"
+            ],
+            "salt and black pepper": [
+                0.0,
+                "unit"
+            ],
+            "red onion": [
+                3.0,
+                "unit"
+            ],
+            "tsp salt": [
+                0.5,
+                "unit"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "sumac": [
+                4.0,
+                "tsp"
+            ]
+        },
+        "portions": 2
+    },
+    "Hawaij onion and chickpea soup": {
+        "ingredients": {
+            "unsalted butter": [
+                50.0,
+                "g"
+            ],
+            "olive oil": [
+                2.0,
+                "tbsp"
+            ],
+            "onion": [
+                1.2,
+                "kg"
+            ],
+            "tomato passata": [
+                250.0,
+                "g"
+            ],
+            "freah coriander": [
+                30.0,
+                "g"
+            ],
+            "tin of chickpeas": [
+                1.0,
+                "unit"
+            ],
+            "vegetable stock": [
+                1.5,
+                "litres"
+            ],
+            "salt and black pepper": [
+                0.0,
+                "unit"
+            ],
+            "coriander seeds": [
+                1.0,
+                "tbsp"
+            ],
+            "cumin seeds": [
+                2.0,
+                "tsp"
+            ],
+            "whole cloves": [
+                2.0,
+                "unit"
+            ],
+            "cardamom pods": [
+                8.0,
+                "unit"
+            ],
+            "fenugreek seeds": [
+                0.5,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ]
+        },
+        "portions": 6
+    },
+    "Holy Trinity Louisiana Gumbo": {
+        "ingredients": {
+            "onion": [
+                2.0,
+                "unit"
+            ],
+            "celery sticks": [
+                2.0,
+                "unit"
+            ],
+            "green peppers": [
+                2.0,
+                "unit"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "okra": [
+                300.0,
+                "g"
+            ],
+            "chestnut mushrooms": [
+                250.0,
+                "g"
+            ],
+            "tomatoes": [
+                4.0,
+                "unit"
+            ],
+            "sprigs fresh thyme": [
+                2.0,
+                "unit"
+            ],
+            "olive oil": [
+                4.0,
+                "tbsp"
+            ],
+            "salt": [
+                0.25,
+                "tsp"
+            ],
+            "plain flour": [
+                4.0,
+                "tbsp"
+            ],
+            "tomato puree": [
+                1.0,
+                "tbsp"
+            ],
+            "apple cider vinegar": [
+                1.0,
+                "tbsp"
+            ],
+            "smoked paprika": [
+                2.0,
+                "tsp"
+            ],
+            "cayenne pepper": [
+                0.5,
+                "tsp"
+            ],
+            "dried oregano": [
+                1.0,
+                "tsp"
+            ],
+            "tabasco sauce": [
+                1.0,
+                "tsp"
+            ],
+            "vegetable stock": [
+                750.0,
+                "ml"
+            ],
+            "fresh bay leaves": [
+                2.0,
+                "unit"
+            ],
+            "tinned kidney beans": [
+                240.0,
+                "g"
+            ],
+            "spring onion": [
+                4.0,
+                "unit"
+            ],
+            "cooked basmati rice": [
+                500.0,
+                "g"
+            ],
+            "black pepper": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Honey Soy and ginger braised tofu": {
+        "ingredients": {
+            "280g pack of extra-firm tofu": [
+                1.0,
+                "unit"
+            ],
+            "light soy sauce": [
+                2.0,
+                "tbsp"
+            ],
+            "honey": [
+                1.5,
+                "tbsp"
+            ],
+            "garlic": [
+                3.0,
+                "cloves"
+            ],
+            "ginger": [
+                1.5,
+                "cm"
+            ],
+            "apple": [
+                1.0,
+                "unit"
+            ],
+            "spring onion": [
+                4.0,
+                "unit"
+            ],
+            "toasted sesame oil": [
+                2.0,
+                "tbsp"
+            ],
+            "gochujang paste": [
+                1.5,
+                "tsp"
+            ],
+            "rapeseed oil": [
+                2.0,
+                "tbsp"
+            ],
+            "black and white sesame": [
+                0.0,
+                "a handful"
+            ],
+            "basmati rice": [
+                0.0,
+                "serve with"
+            ]
+        },
+        "portions": 2
+    },
+    "Korean Egg Bread": {
+        "ingredients": {
+            "medium eggs": [
+                5.0,
+                "unit"
+            ],
+            "self-raising flour": [
+                250.0,
+                "g"
+            ],
+            "mature cheddar cheese": [
+                75.0,
+                "g"
+            ],
+            "salt": [
+                1.25,
+                "tsp"
+            ],
+            "baking powder": [
+                1.5,
+                "tsp"
+            ],
+            "hot smoked paprika": [
+                1.0,
+                "tsp"
+            ],
+            "chilli flakes": [
+                0.5,
+                "tsp"
+            ],
+            "fresh parsley": [
+                20.0,
+                "g"
+            ],
+            "unsalted butter": [
+                100.0,
+                "g"
+            ],
+            "whole milk": [
+                240.0,
+                "ml"
+            ]
+        },
+        "portions": 4
+    },
+    "Leek mushroom and kale subji": {
+        "ingredients": {
+            "cumin seeds": [
+                1.0,
+                "tsp"
+            ],
+            "fennel seeds": [
+                1.0,
+                "tsp"
+            ],
+            "rapeseed oil": [
+                3.0,
+                "tbsp"
+            ],
+            "black mustard seeds": [
+                1.0,
+                "tsp"
+            ],
+            "onion": [
+                1.0,
+                "unit"
+            ],
+            "garlic": [
+                3.0,
+                "cloves"
+            ],
+            "leeks": [
+                3.0,
+                "unit"
+            ],
+            "chestnut mushrooms": [
+                600.0,
+                "g"
+            ],
+            "kashmiri chilli powder": [
+                1.75,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ],
+            "salt": [
+                1.25,
+                "tsp"
+            ],
+            "kale (ribs discarded)": [
+                200.0,
+                "g kale"
+            ],
+            "frozen peas": [
+                150.0,
+                "g"
+            ]
+        },
+        "portions": 4
+    },
+    "Middle-Eastern Spiced Chickpea Salad": {
+        "ingredients": {
+            "400g tins chickpeas": [
+                2.0,
+                "unit"
+            ],
+            "olive oil": [
+                0.5,
+                "tbsp"
+            ],
+            "smoked paprika": [
+                3.0,
+                "tsp"
+            ],
+            "ground cumin": [
+                2.0,
+                "tsp"
+            ],
+            "ground coriander": [
+                2.0,
+                "tsp"
+            ],
+            "salt": [
+                0.0,
+                "a pinch"
+            ],
+            "cucumber (medium)": [
+                1.0,
+                "unit"
+            ],
+            "cherry tomatoes": [
+                250.0,
+                "g"
+            ],
+            "avocado": [
+                1.0,
+                "unit"
+            ],
+            "lemon": [
+                1.0,
+                "unit"
+            ],
+            "fresh mint": [
+                20.0,
+                "g"
+            ],
+            "extra-virgin olive oil": [
+                1.0,
+                "tbsp"
+            ],
+            "baby leaf salad": [
+                120.0,
+                "g"
+            ],
+            "salt and black pepper": [
+                0.0,
+                "unit"
+            ],
+            "tahini": [
+                1.0,
+                "tbsp"
+            ],
+            "maple syrup": [
+                1.0,
+                "tbsp"
+            ]
+        },
+        "portions": 4
+    },
+    "Paneer tomato and kale saag": {
+        "ingredients": {
+            "kale, ribs discarded": [
+                500.0,
+                "g"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "paneer": [
+                450.0,
+                "g"
+            ],
+            "onion": [
+                2.0,
+                "unit"
+            ],
+            "ginger": [
+                2.0,
+                "cm"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "green finger chilli": [
+                2.0,
+                "unit"
+            ],
+            "tin of chopped tomatoes": [
+                1.0,
+                "x 400g"
+            ],
+            "ground coriander": [
+                1.5,
+                "tsp"
+            ],
+            "ground cumin": [
+                1.5,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ],
+            "salt": [
+                1.5,
+                "tsp"
+            ],
+            "brown rice syrup": [
+                1.0,
+                "tsp"
+            ],
+            "tin of coconut milk": [
+                1.0,
+                "x 400ml"
+            ]
+        },
+        "portions": 4
+    },
+    "Peanut butter and purple sprouting broccoli pad thai": {
+        "ingredients": {
+            "crunchy peanut butter": [
+                6.0,
+                "tbsp"
+            ],
+            "tamarind paste": [
+                2.0,
+                "tbsp"
+            ],
+            "brown rice syrup": [
+                3.0,
+                "tbsp"
+            ],
+            "soy sauce": [
+                4.0,
+                "tbsp"
+            ],
+            "fresh lime juice": [
+                3.0,
+                "tbsp"
+            ],
+            "purple sprouting broccoli": [
+                450.0,
+                "g"
+            ],
+            "garlic": [
+                3.0,
+                "cloves"
+            ],
+            "ginger": [
+                1.5,
+                "cm"
+            ],
+            "bird's-eye chilli": [
+                2.0,
+                "unit"
+            ],
+            "firm tofu": [
+                225.0,
+                "g"
+            ],
+            "flat folded rice noodles": [
+                250.0,
+                "g"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "spring onion": [
+                6.0,
+                "unit"
+            ],
+            "sesame seeds": [
+                0.0,
+                "a handful"
+            ],
+            "toasted sesame oil": [
+                0.0,
+                "unit"
+            ],
+            "fresh thai basil leaves": [
+                0.0,
+                "a handful"
+            ],
+            "fresh mint leaves": [
+                0.0,
+                "a handful"
+            ],
+            "lime": [
+                1.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Piccalili spiced rice": {
+        "ingredients": {
+            "large cauliflower": [
+                1.0,
+                "unit"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "salt": [
+                0.0,
+                "unit"
+            ],
+            "basmati rice": [
+                300.0,
+                "g"
+            ],
+            "black mustard seeds": [
+                1.5,
+                "tsp"
+            ],
+            "cumin seeds": [
+                1.5,
+                "tsp"
+            ],
+            "red onion": [
+                1.0,
+                "unit"
+            ],
+            "carrots": [
+                350.0,
+                "g"
+            ],
+            "garlic": [
+                3.0,
+                "cloves"
+            ],
+            "red chilli (large)": [
+                2.0,
+                "unit"
+            ],
+            "green beans": [
+                200.0,
+                "g"
+            ],
+            "jarred english mustard": [
+                4.0,
+                "tsp"
+            ],
+            "lemon juice": [
+                2.5,
+                "tbsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ]
+        },
+        "portions": 4
+    },
+    "Pumpkin Malai Kari": {
+        "ingredients": {
+            "pumpkin": [
+                1.2,
+                "kg"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "salt": [
+                0.0,
+                "unit"
+            ],
+            "large red onion": [
+                2.0,
+                "unit"
+            ],
+            "ginger": [
+                2.0,
+                "cm"
+            ],
+            "garlic": [
+                5.0,
+                "cloves"
+            ],
+            "tomato passata": [
+                200.0,
+                "ml"
+            ],
+            "ground cumin": [
+                2.0,
+                "tsp"
+            ],
+            "ground cinnamon": [
+                0.75,
+                "tsp"
+            ],
+            "kashmiri chilli powder": [
+                1.75,
+                "tsp"
+            ],
+            "garam masala": [
+                1.5,
+                "tsp"
+            ],
+            "caster sugar": [
+                1.0,
+                "tsp"
+            ],
+            "coconut milk": [
+                600.0,
+                "ml"
+            ],
+            "lime": [
+                1.0,
+                "unit"
+            ],
+            "toasted flaked almonds": [
+                0.0,
+                "optional"
+            ],
+            "fresh coriander": [
+                0.0,
+                "optional"
+            ]
+        },
+        "portions": 4
+    },
+    "Quick coconut dhal with tomato sambol": {
+        "ingredients": {
+            "rapeseed oil": [
+                2.0,
+                "tbsp"
+            ],
+            "red onion": [
+                1.0,
+                "unit"
+            ],
+            "fresh curry leaves, plus extra to serve": [
+                10.0,
+                "unit"
+            ],
+            "garlic": [
+                2.0,
+                "cloves"
+            ],
+            "green finger chilli": [
+                1.0,
+                "unit"
+            ],
+            "lemongrass stick": [
+                1.0,
+                "unit"
+            ],
+            "cinnamon stick": [
+                1.0,
+                "unit"
+            ],
+            "red lentils": [
+                150.0,
+                "g"
+            ],
+            "ground turmeric": [
+                0.3,
+                "tsp"
+            ],
+            "400ml tin of coconut milk": [
+                1.0,
+                "unit"
+            ],
+            "salt": [
+                0.5,
+                "tsp"
+            ],
+            "lime": [
+                0.5,
+                "tbsp"
+            ],
+            "desiccated coconut": [
+                40.0,
+                "g"
+            ],
+            "red chilli (long)": [
+                1.0,
+                "unit"
+            ],
+            "cherry tomatoes": [
+                100.0,
+                "g"
+            ],
+            "lime juice": [
+                1.0,
+                "tbsp"
+            ]
+        },
+        "portions": 2
+    },
+    "Satay summer rolls": {
+        "ingredients": {
+            "dried rice vermicelli": [
+                100.0,
+                "g"
+            ],
+            "large carrot": [
+                1.0,
+                "unit"
+            ],
+            "cucumber": [
+                0.5,
+                "unit"
+            ],
+            "red cabbage": [
+                100.0,
+                "g"
+            ],
+            "fresh mint": [
+                0.0,
+                "a small bunch"
+            ],
+            "fresh corriander": [
+                0.0,
+                "a small bunch"
+            ],
+            "fresh thai basil": [
+                0.0,
+                "a small bunch"
+            ],
+            "fresh chives": [
+                0.0,
+                "a small bunch"
+            ],
+            "salted roasted peanuts": [
+                0.0,
+                "a small handful"
+            ],
+            "rice paper wrappers": [
+                16.0,
+                "unit"
+            ],
+            "block extra-firm tofu": [
+                1.0,
+                "x 280g"
+            ],
+            "cornflour": [
+                3.0,
+                "tbsp"
+            ],
+            "sesame oil": [
+                3.0,
+                "tbsp"
+            ],
+            "lime": [
+                1.0,
+                "unit"
+            ],
+            "fresh red chilli": [
+                1.0,
+                "unit"
+            ],
+            "piece fresh ginger": [
+                2.0,
+                "cm"
+            ],
+            "caster sugar": [
+                1.0,
+                "tsp"
+            ],
+            "soy sauce": [
+                1.0,
+                "tbsp"
+            ],
+            "rice vinegar": [
+                1.0,
+                "unit"
+            ],
+            "limes": [
+                2.0,
+                "unit"
+            ],
+            "bird's-eye chilli": [
+                1.0,
+                "unit"
+            ],
+            "garlic": [
+                1.0,
+                "clove"
+            ],
+            "crunchy peanut butter": [
+                6.0,
+                "tbsp"
+            ],
+            "soft brown sugar": [
+                2.0,
+                "tbsp"
+            ]
+        },
+        "portions": 4
+    },
+    "Scrambled Tofu Akuri": {
+        "ingredients": {
+            "silken tofu": [
+                500.0,
+                "g"
+            ],
+            "cumin seeds": [
+                0.5,
+                "tsp"
+            ],
+            "rapeseed oil": [
+                2.0,
+                "tbsp"
+            ],
+            "large red onion": [
+                1.0,
+                "unit"
+            ],
+            "green finger chilli": [
+                1.0,
+                "unit"
+            ],
+            "garlic": [
+                1.0,
+                "clove"
+            ],
+            "ginger": [
+                1.0,
+                "cm"
+            ],
+            "tomato (sweet vine)": [
+                1.0,
+                "unit"
+            ],
+            "fresh coriander": [
+                2.0,
+                "tbsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ],
+            "salt": [
+                0.5,
+                "tsp"
+            ],
+            "slices of bread, toasted": [
+                4.0,
+                "unit"
+            ]
+        },
+        "portions": 2
+    },
+    "Shiitake Pho with crispy leeks": {
+        "ingredients": {
+            "rapeseed oil": [
+                4.0,
+                "tbsp"
+            ],
+            "banana shallots": [
+                4.0,
+                "unit"
+            ],
+            "ginger": [
+                5.0,
+                "cm"
+            ],
+            "star anise": [
+                1.0,
+                "unit"
+            ],
+            "cloves": [
+                3.0,
+                "unit"
+            ],
+            "cinnamon stick": [
+                1.0,
+                "unit"
+            ],
+            "leeks": [
+                2.0,
+                "unit"
+            ],
+            "bird's-eye chillies": [
+                2.0,
+                "unit"
+            ],
+            "fresh shiitake mushrooms": [
+                375.0,
+                "g"
+            ],
+            "light soy sauce": [
+                1.0,
+                "tbsp"
+            ],
+            "spring onion": [
+                6.0,
+                "unit"
+            ],
+            "vegetable stock": [
+                2.0,
+                "litres"
+            ],
+            "salt": [
+                0.0,
+                "optional"
+            ],
+            "flat rice noodles": [
+                200.0,
+                "g"
+            ],
+            "fresh coriander": [
+                0.0,
+                "a big handful"
+            ],
+            "lime": [
+                1.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Smoked Tofu mushroom and almond kheema": {
+        "ingredients": {
+            "chestnut mushrooms": [
+                650.0,
+                "g"
+            ],
+            "smioked tofu": [
+                200.0,
+                "g"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "white onion": [
+                1.0,
+                "unit"
+            ],
+            "ginger": [
+                4.0,
+                "cm"
+            ],
+            "garlic": [
+                6.0,
+                "cloves"
+            ],
+            "green finger chillies": [
+                3.0,
+                "unit"
+            ],
+            "ground almonds": [
+                100.0,
+                "g"
+            ],
+            "garam masala": [
+                1.0,
+                "tsp"
+            ],
+            "tsp ground cumin": [
+                1.5,
+                "tsp"
+            ],
+            "ground coriander": [
+                1.5,
+                "tsp"
+            ],
+            "ground turmeric": [
+                0.5,
+                "tsp"
+            ],
+            "salt": [
+                0.75,
+                "tsp"
+            ],
+            "frozen petit pois": [
+                200.0,
+                "g"
+            ],
+            "fresh mint": [
+                10.0,
+                "g"
+            ],
+            "fresh coriander": [
+                15.0,
+                "g"
+            ],
+            "oven bottom muffins": [
+                4.0,
+                "unit"
+            ],
+            "red onion": [
+                1.0,
+                "unit"
+            ],
+            "lime": [
+                1.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Sodha Family masala omelette": {
+        "ingredients": {
+            "rapeseed oil": [
+                1.0,
+                "tbsp"
+            ],
+            "unsalted butter": [
+                2.0,
+                "tbsp"
+            ],
+            "large red onion": [
+                1.0,
+                "unit"
+            ],
+            "green finger chillies (to taste).": [
+                1.0,
+                "unit"
+            ],
+            "garlic": [
+                2.0,
+                "cloves"
+            ],
+            "salt": [
+                0.75,
+                "tsp"
+            ],
+            "chestnut mushrooms": [
+                250.0,
+                "g"
+            ],
+            "medium eggs": [
+                8.0,
+                "unit"
+            ],
+            "fresh coriander": [
+                20.0,
+                "g"
+            ]
+        },
+        "portions": 4
+    },
+    "Spring Pilau": {
+        "ingredients": {
+            "basmati rice": [
+                350.0,
+                "g"
+            ],
+            "vegetable stock": [
+                600.0,
+                "ml"
+            ],
+            "rapeseed oil": [
+                3.0,
+                "tbsp"
+            ],
+            "red onion": [
+                2.0,
+                "unit"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "green finger chilli": [
+                2.0,
+                "unit"
+            ],
+            "fennel bulb (medium)": [
+                1.0,
+                "unit"
+            ],
+            "asparagus": [
+                250.0,
+                "g"
+            ],
+            "mixed frozen petit pois and broad beans": [
+                200.0,
+                "g"
+            ],
+            "ground cumin": [
+                1.5,
+                "tsp"
+            ],
+            "garam masala": [
+                1.5,
+                "tsp"
+            ],
+            "salt": [
+                0.75,
+                "tsp"
+            ],
+            "fresh mint leaves": [
+                0.0,
+                "a big handful"
+            ],
+            "fresh dill": [
+                0.0,
+                "a big handful"
+            ],
+            "lemon": [
+                1.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Spring Vegetable Bun Cha": {
+        "ingredients": {
+            "red cabbage": [
+                200.0,
+                "g"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "bird's-eye chilli": [
+                3.0,
+                "unit"
+            ],
+            "soy sauce": [
+                100.0,
+                "ml"
+            ],
+            "lime juice": [
+                3.0,
+                "tbsp"
+            ],
+            "caster sugar": [
+                2.0,
+                "tbsp"
+            ],
+            "extra-firm tofu": [
+                400.0,
+                "g"
+            ],
+            "salt and ground black pepper": [
+                0.0,
+                "unit"
+            ],
+            "spring onion": [
+                10.0,
+                "unit"
+            ],
+            "peas or mixed peas and broad beans": [
+                250.0,
+                "g"
+            ],
+            "watercress": [
+                200.0,
+                "g"
+            ],
+            "rice vermicelli noodles": [
+                250.0,
+                "g"
+            ],
+            "salted peanuts": [
+                0.0,
+                "a large handful"
+            ],
+            "fresh coriander": [
+                0.0,
+                "a handful"
+            ],
+            "fresh mint": [
+                0.0,
+                "a handful"
+            ]
+        },
+        "portions": 4
+    },
+    "Summer Pilau": {
+        "ingredients": {
+            "basmati rice": [
+                350.0,
+                "g"
+            ],
+            "rapeseed oil": [
+                2.0,
+                "tbsp"
+            ],
+            "fresh curry leaves": [
+                12.0,
+                "unit"
+            ],
+            "cinnamon stick": [
+                4.0,
+                "cm"
+            ],
+            "large onion": [
+                1.0,
+                "unit"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "green finger chilli": [
+                1.0,
+                "unit"
+            ],
+            "unsalted cashews": [
+                50.0,
+                "g"
+            ],
+            "baby plum tomatoes": [
+                400.0,
+                "g"
+            ],
+            "tin of coconut milk": [
+                1.0,
+                "x 400ml"
+            ],
+            "salt": [
+                1.75,
+                "tsp"
+            ]
+        },
+        "portions": 4
+    },
+    "Sun House Chilli Eggs": {
+        "ingredients": {
+            "unsalted butter": [
+                2.0,
+                "tbsp"
+            ],
+            "small red onion": [
+                1.0,
+                "unit"
+            ],
+            "green finger chilli": [
+                1.5,
+                "unit"
+            ],
+            "garlic": [
+                2.0,
+                "cloves"
+            ],
+            "tomatoes": [
+                200.0,
+                "g"
+            ],
+            "salt": [
+                0.5,
+                "tsp"
+            ],
+            "medium eggs": [
+                4.0,
+                "unit"
+            ],
+            "mature cheddar cheese": [
+                40.0,
+                "g"
+            ],
+            "fresh coriander": [
+                0.0,
+                "a little"
+            ]
+        },
+        "portions": 2
+    },
+    "Sunny Sri Lankan curry": {
+        "ingredients": {
+            "small butternut squash": [
+                1.0,
+                "unit"
+            ],
+            "vegetable oil": [
+                1.0,
+                "tsp"
+            ],
+            "cashews": [
+                20.0,
+                "g"
+            ],
+            "shallots": [
+                2.0,
+                "unit"
+            ],
+            "garlic": [
+                3.0,
+                "large cloves"
+            ],
+            "fresh ginger": [
+                5.0,
+                "cm piece"
+            ],
+            "fresh green birds-eye chilli": [
+                1.0,
+                "unit"
+            ],
+            "red pepper": [
+                1.0,
+                "unit"
+            ],
+            "orange pepper": [
+                1.0,
+                "unit"
+            ],
+            "coconut oil": [
+                1.0,
+                "tsp"
+            ],
+            "ground turmeric": [
+                1.0,
+                "tsp"
+            ],
+            "curry powder": [
+                1.0,
+                "tbsp"
+            ],
+            "black mustard seeds": [
+                1.0,
+                "tbsp"
+            ],
+            "tomato puree": [
+                1.0,
+                "tbsp"
+            ],
+            "curry leaves (plus garnish)": [
+                15.0,
+                "unit"
+            ],
+            "coconut milk": [
+                200.0,
+                "ml"
+            ],
+            "desiccated coconut": [
+                10.0,
+                "g"
+            ],
+            "fresh baby spinach leaves": [
+                100.0,
+                "g"
+            ],
+            "lime": [
+                0.5,
+                "unit"
+            ],
+            "fresh coriander": [
+                10.0,
+                "g"
+            ],
+            "salt and black pepper": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Swede Laksa ": {
+        "ingredients": {
+            "swede laksa 4 portions": [
+                0.0,
+                "unit"
+            ],
+            "garlic": [
+                6.0,
+                "cloves"
+            ],
+            "ginger,": [
+                3.0,
+                "cm"
+            ],
+            "kashmiri chilli powder": [
+                4.0,
+                "tsp"
+            ],
+            "ground cumin": [
+                2.5,
+                "tsp"
+            ],
+            "lemongrass sticks, bases only,": [
+                2.0,
+                "unit"
+            ],
+            "fresh coriander": [
+                30.0,
+                "g"
+            ],
+            "banana shallots": [
+                6.0,
+                "unit"
+            ],
+            "vegetable stock": [
+                1.0,
+                "litre"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "400ml tin of coconut milk": [
+                1.0,
+                "unit"
+            ],
+            "salt": [
+                1.5,
+                "tsp"
+            ],
+            "sugar": [
+                1.5,
+                "tsp"
+            ],
+            "swede": [
+                800.0,
+                "g"
+            ],
+            "rice vermicelli noodles": [
+                200.0,
+                "g"
+            ],
+            "limes,": [
+                2.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Sweet potato and tenderstem bibimbap": {
+        "ingredients": {
+            "gochujang paste": [
+                4.5,
+                "tbsp"
+            ],
+            "toasted sesame oil": [
+                2.5,
+                "tbsp"
+            ],
+            "light soy sauce": [
+                1.5,
+                "tbsp"
+            ],
+            "brown rice syrup": [
+                1.5,
+                "tbsp"
+            ],
+            "rice wine vinegar": [
+                1.5,
+                "tbsp"
+            ],
+            "soy sauce": [
+                2.5,
+                "tbsp"
+            ],
+            "garlic": [
+                1.0,
+                "clove"
+            ],
+            "rapeseed oil": [
+                3.0,
+                "tbsp"
+            ],
+            "sweet potatoes": [
+                500.0,
+                "g"
+            ],
+            "tenderstem broccoli": [
+                300.0,
+                "g"
+            ],
+            "medium eggs": [
+                4.0,
+                "unit"
+            ],
+            "avocados": [
+                2.0,
+                "unit"
+            ],
+            "a handful of mixed seeds": [
+                0.0,
+                "optional"
+            ],
+            "sushi or short-grain rice": [
+                350.0,
+                "g"
+            ]
+        },
+        "portions": 4
+    },
+    "Sweet Spiced Mushroom and rice pilaf": {
+        "ingredients": {
+            "dried ancho chilli": [
+                1.0,
+                "unit"
+            ],
+            "dried porcini mushrooms": [
+                30.0,
+                "g"
+            ],
+            "vegetable stock": [
+                500.0,
+                "ml"
+            ],
+            "oyster mushrooms": [
+                500.0,
+                "g"
+            ],
+            "large portobello mushrooms": [
+                500.0,
+                "g"
+            ],
+            "large onion": [
+                1.0,
+                "unit"
+            ],
+            "garlic": [
+                10.0,
+                "cloves"
+            ],
+            "cinnamon sticks": [
+                3.0,
+                "unit"
+            ],
+            "whole star anise": [
+                4.0,
+                "unit"
+            ],
+            "soft dried apricots": [
+                150.0,
+                "g"
+            ],
+            "olive oil": [
+                150.0,
+                "ml"
+            ],
+            "basmati rice": [
+                350.0,
+                "g"
+            ],
+            "spring onion": [
+                3.0,
+                "unit"
+            ],
+            "picked parsley": [
+                5.0,
+                "g"
+            ],
+            "salt and black pepper": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Sweetheart Cabbage okonomiyaki": {
+        "ingredients": {
+            "plain flour": [
+                150.0,
+                "g"
+            ],
+            "tsp salt": [
+                1.25,
+                "unit"
+            ],
+            "medium eggs": [
+                4.0,
+                "unit"
+            ],
+            "sweetheart cabbage": [
+                300.0,
+                "g"
+            ],
+            "spring onion": [
+                6.0,
+                "unit"
+            ],
+            "rapeseed oil": [
+                2.0,
+                "tbsp"
+            ],
+            "tomato ketchup": [
+                2.5,
+                "tbsp"
+            ],
+            "hp sauce": [
+                2.5,
+                "tbsp"
+            ],
+            "date syrup": [
+                2.5,
+                "tbsp"
+            ],
+            "mayonnaise": [
+                0.0,
+                "unit"
+            ],
+            "crispy fried onions (shop bought)": [
+                0.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Tom Kha": {
+        "ingredients": {
+            "piece fresh ginger": [
+                5.0,
+                "cm"
+            ],
+            "lemongrass stalks": [
+                2.0,
+                "unit"
+            ],
+            "eschalion (banana) shallots": [
+                4.0,
+                "unit"
+            ],
+            "mixed exotic mushrooms": [
+                500.0,
+                "g"
+            ],
+            "red pepper": [
+                1.0,
+                "unit"
+            ],
+            "cherry tomatoes": [
+                350.0,
+                "g"
+            ],
+            "bird's-eye chilli": [
+                5.0,
+                "unit"
+            ],
+            "green beans": [
+                100.0,
+                "g"
+            ],
+            "400ml tins coconut milk": [
+                2.0,
+                "unit"
+            ],
+            "kaffir lime leaves": [
+                7.0,
+                "unit"
+            ],
+            "soy sauce": [
+                3.0,
+                "tbsp"
+            ],
+            "coconut sugar": [
+                1.0,
+                "tsp"
+            ],
+            "fresh coriander": [
+                20.0,
+                "g"
+            ],
+            "spring onion": [
+                2.0,
+                "unit"
+            ],
+            "limes": [
+                2.0,
+                "unit"
+            ]
+        },
+        "portions": 4
+    },
+    "Tomato Curry": {
+        "ingredients": {
+            "fennel seeds": [
+                1.25,
+                "tsp"
+            ],
+            "black mustard seeds": [
+                1.25,
+                "tsp"
+            ],
+            "cumin seeds": [
+                1.25,
+                "tsp"
+            ],
+            "coriander seeds": [
+                1.25,
+                "tsp"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "onion": [
+                2.0,
+                "unit"
+            ],
+            "salt": [
+                1.25,
+                "tsp"
+            ],
+            "fresh curry leaves": [
+                8.0,
+                "unit"
+            ],
+            "tomatoes (ideally 1kg vine and 200g yellow baby plum)": [
+                1.2,
+                "kg"
+            ],
+            "green finger chilli": [
+                1.5,
+                "unit"
+            ],
+            "garlic": [
+                4.0,
+                "cloves"
+            ],
+            "tamarind paste": [
+                2.5,
+                "tsp"
+            ],
+            "tin of coconut milk": [
+                1.0,
+                "x 400ml"
+            ],
+            "curry leaves to garnish": [
+                0.0,
+                "optional"
+            ]
+        },
+        "portions": 4
+    },
+    "Tomato Pistachio and saffron tart": {
+        "ingredients": {
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "red onion": [
+                2.0,
+                "unit"
+            ],
+            "tamarind paste": [
+                2.0,
+                "tsp"
+            ],
+            "salt": [
+                0.0,
+                "unit"
+            ],
+            "unsalted pistachio kernels": [
+                100.0,
+                "g"
+            ],
+            "ground almonds": [
+                50.0,
+                "g"
+            ],
+            "garlic": [
+                3.0,
+                "cloves"
+            ],
+            "ground cumin": [
+                1.5,
+                "tsp"
+            ],
+            "ground coriander": [
+                1.5,
+                "tsp"
+            ],
+            "ground cinnamon": [
+                0.75,
+                "tsp"
+            ],
+            "saffron": [
+                0.0,
+                "a big pinch"
+            ],
+            "tinned coconut milk": [
+                200.0,
+                "ml"
+            ],
+            "puff pastry sheet": [
+                320.0,
+                "g"
+            ],
+            "mixed good-quality tomatoes (such as datterini and vine)": [
+                600.0,
+                "g"
+            ]
+        },
+        "portions": 4
+    },
+    "Winter pilau": {
+        "ingredients": {
+            "basmati rice": [
+                300.0,
+                "g"
+            ],
+            "cauliflower": [
+                600.0,
+                "g"
+            ],
+            "raw beetroot": [
+                400.0,
+                "g"
+            ],
+            "swede": [
+                300.0,
+                "g"
+            ],
+            "garam masala": [
+                2.5,
+                "tsp"
+            ],
+            "rapeseed oil": [
+                0.0,
+                "unit"
+            ],
+            "salt": [
+                0.0,
+                "unit"
+            ],
+            "tin of coconut milk": [
+                1.0,
+                "x 400ml"
+            ],
+            "garlic": [
+                6.0,
+                "cloves"
+            ],
+            "ginger": [
+                2.0,
+                "cm"
+            ],
+            "green finger chilli": [
+                2.0,
+                "unit"
+            ],
+            "ground turmeric": [
+                1.0,
+                "tsp"
+            ],
+            "large onion": [
+                1.0,
+                "unit"
+            ],
+            "fresh coriander": [
+                100.0,
+                "g"
+            ],
+            "lemon juice": [
+                1.0,
+                "tbsp"
+            ],
+            "caster sugar": [
+                1.0,
+                "tsp"
+            ],
+            "pomegranate seeds": [
+                2.0,
+                "handfuls"
             ]
         },
         "portions": 4
