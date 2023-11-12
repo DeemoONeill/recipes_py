@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected</title>
+</head>
+
+<body>
+    <h3>These are the recipes you have selected</h3>
+    <ol>
+        {% for selection in selections %}
+        <li>{{selection}}</li>
+        {% endfor %}
+    </ol>
+
+    <p>Shopping list</p>
+    {% for ingredient, quantity in shopping_list.items() %}
+    <input type="checkbox" name="ingredient" id="{{ingredient}}">
+    <label for="{{ingredient}}">{{quantity}}</label>
+    <br />
+    {% endfor %}
+</body>
+
+</html>
