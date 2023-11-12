@@ -130,7 +130,7 @@ def recipe_selection(recipes: dict[str, Recipe]):
     """Prompts the user for which recipes and quantities they want to cook"""
     list_of_wanted_recipes = []
     # input
-    list_of_recipes = list(recipes.keys())
+    list_of_recipes = sorted(recipes.keys())
     valid_choices = list(enumerate(list_of_recipes, start=1))
 
     while True:
@@ -144,7 +144,12 @@ def recipe_selection(recipes: dict[str, Recipe]):
         selection: str = pyin.inputChoice(choices, strip=True, blank=True)
 
         if not selection:
-            break
+            print("You have selected:", *list_of_wanted_recipes)
+            cont = input(
+                "Press Enter to generate shopping list or type any key to pick more"
+            )
+            if not cont:
+                break
         selection = list_of_recipes[int(selection) - 1]
         print("selected:", selection)
 
@@ -208,7 +213,7 @@ def main():
         recipes: dict[str, dict] = json.loads(file_handle.read())
 
     recipes = {
-        key: Recipe(
+        key.title(): Recipe(
             name=key,
             portions=value["portions"],
             ingredients={
@@ -222,6 +227,11 @@ def main():
     selections = recipe_selection(recipes)
     shopping_list = make_shopping_list(selections, recipes)
     with open("shopping_list.txt", "w", encoding="utf-8") as fh:
+        print(
+            *[f"{recipe}, serves: {portion}" for recipe, portion in selections],
+            file=fh,
+            sep=" -- ",
+        )
         print(*shopping_list.values(), file=fh, sep="\n")
 
 

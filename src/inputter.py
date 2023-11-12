@@ -29,7 +29,10 @@ def recipe_builder(filename):
 
     # structure the data here
     split_recipe_name = recipe_name.strip().split(",")
-    cleaned_recipe_name, portion = split_recipe_name
+    *cleaned_recipe_name, portion = split_recipe_name
+    cleaned_recipe_name = (
+        " ".join(cleaned_recipe_name).replace('"', "").replace("  ", " ")
+    )
     if portion:
         portion = int(portion)
     else:
@@ -51,7 +54,10 @@ def recipe_builder(filename):
         if key in ingredients:
             if measure == 0 and unit == "unit":
                 continue
-        ingredients[key] = [float(measure) if measure else float(), unit]
+        ingredients[key.strip().lower()] = [
+            float(measure) if measure else float(),
+            unit,
+        ]
 
     return {cleaned_recipe_name: {"ingredients": ingredients, "portions": portion}}
 
