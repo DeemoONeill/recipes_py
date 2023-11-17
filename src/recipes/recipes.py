@@ -144,12 +144,14 @@ def recipe_selection(recipes: dict[str, Recipe]):
         selection: str = pyin.inputChoice(choices, strip=True, blank=True)
 
         if not selection:
-            print("You have selected:", *list_of_wanted_recipes)
-            cont = input(
-                "Press Enter to generate shopping list or type any key to pick more"
-            )
-            if not cont:
+            print("You have selected", *list_of_wanted_recipes)
+            if pyin.inputBool(
+                "is this correct?",
+                caseSensitive=False,
+                default=True,
+            ):
                 break
+            continue
         selection = list_of_recipes[int(selection) - 1]
         print("selected:", selection)
 
